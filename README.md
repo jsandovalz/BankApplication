@@ -42,7 +42,7 @@ Sistema compuesto por dos microservicios independientes que se comunican de form
 | **Bean Validation** | Anotaciones `@NotBlank`, `@Min`, `@DecimalMin`, `@NotNull` en los DTOs + `@Valid` en los controllers |
 | **Inyección por constructor** | En todos los `@Service`, `@RestController` y `@Component` |
 | **Transaccionalidad** | `@Transactional` en operaciones de escritura, especialmente en el registro de transacciones (lectura + escritura de saldo) |
-| **Logging** | SLF4J (`@Slf4j`) en services y listener de RabbitMQ |
+| **Logging** | SLF4J (`@Slf4j`) en listener de RabbitMQ |
 | **Herencia JPA** | `Base` (`@MappedSuperclass`) → `Person` (`@MappedSuperclass`) → `Client` (`@Entity`) |
 
 ## Cómo levantar el proyecto
